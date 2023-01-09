@@ -5,7 +5,7 @@ import urllib.request, urllib.parse, urllib.error
 import ssl
 sum = 0
 
-# code to ignore SSL certificate errors(accessing HTTPS URLs)
+# #code to ignore SSL certificate errors(accessing HTTPS URLs)
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
