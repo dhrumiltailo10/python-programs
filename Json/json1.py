@@ -19,11 +19,11 @@ data1 = '''[
     }
 ]'''
 
-info = json.loads(data)
+info = json.loads(data)   #info is a python dictionary consisitng of parsed json data
 print('Name : ', info["name"])
 print('Age:', info["age"])
 
-info1 = json.loads(data1)
+info1 = json.loads(data1)  #info1 is a python table consisting of parsed json data1
 for item in info1:
     print("Name:", item["name"])
     print("rollno:",item["rollno"])
